@@ -1,27 +1,27 @@
 floor:
     name: 'floor'
-    file: '$(find tennis_choreonoid)/model/grass_court.body'
+    file: '$(find tennis_choreonoid)/models/grass_court.body'
     translation: [10, 0, -0.1]
 ball:
     name: 'TennisBall'
-    file: '$(find tennis_choreonoid)/model/tennis_ball.body'
+    file: '$(find tennis_choreonoid)/models/tennis_ball.body'
     translation: [-1, 0, 0]
 net:
     name: 'net'
-    file: '$(find tennis_choreonoid)/model/net.body'
+    file: '$(find tennis_choreonoid)/models/net.body'
     translation: [10, 0, 0]
     rotation: [[0, 1, 0], [-1, 0, 0], [0, 0, 1]]
 pole0:
     name: 'pole0'
-    file: '$(find tennis_choreonoid)/model/pole.body'
+    file: '$(find tennis_choreonoid)/models/pole.body'
     translation: [10, 6.399, 0.535]
     rotation: [[1, 0, 0], [0, 0, -1], [0, 1, 0]]
 pole1:
     name: 'pole1'
-    file: '$(find tennis_choreonoid)/model/pole.body'
+    file: '$(find tennis_choreonoid)/models/pole.body'
     translation: [10, -6.399, 0.535]
     rotation: [[1, 0, 0], [0, 0, -1], [0, 1, 0]]
 #racket:
 #    name: 'racket'
-#    file: '$(find tennis_choreonoid)/model/racket.body'
+#    file: '$(find tennis_choreonoid)/models/racket.body'
 #    translation: [2, 0, 1]
